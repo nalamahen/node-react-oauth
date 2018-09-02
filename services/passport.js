@@ -1,7 +1,7 @@
 const passport = require("passport");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
-const keys = require("../config/keys");
-
+//const keys = require("../config/keys");
+/*
 passport.use(
   new GoogleStrategy({
     clientID: keys.googleClientID,
@@ -13,4 +13,5 @@ passport.use(
     console.log('profile', profile);
   })
 );
+*/
 
